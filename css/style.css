@@ -1,0 +1,85 @@
+nav.menu {
+    background-color: red 
+}/*El color del menu*/ 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}/*Esto ayudara a que esten en linea los elementos*/ 
+
+nav a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}/*Esto es del texto de los elemnetos del menu*/ 
+
+nav a:hover,
+nav a.active {
+    background-color: #4b4848;
+    box-sizing: border-box;
+}/*Esto es para que salga marcado en el menu en la página en la cuál estas*/ 
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+nav {
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img{
+    width: auto;
+    height: 100px;
+}/*Los ajustes de la imagen del header*/ 
+header {
+    text-align: center;
+}/*Y esto para que este en el centro*/ 
+
+.imgcol {
+    height: 80%;
+    width: 90%;
+}/*Para ajustar el tamaño de la imagen del coche*/ 
+
+.contenedor2 {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+  }/*Ajustes para la tabla*/ 
+
+.tabla {
+    border-collapse: collapse;
+    width: 60%; 
+  }/*Para ajustar el ancho y solo haya una linea y no dos*/ 
+
+
+.tabla th, .tabla td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}/*Con esto ajustamos el borde*/ 
+
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }/*Ajustes del footter*/ 
